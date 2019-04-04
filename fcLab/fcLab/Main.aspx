@@ -9,11 +9,11 @@
 
 </head>
 <body>
-    <form id="form1" runat="server" class="vh-100">
-        <div class="row justify-content-center my-2 text-white" > 
+    <form id="form1" runat="server" class="container">
+        <div class="row my-2 text-white" > 
             <asp:HyperLink ID="Upload" runat="server" CssClass="btn btn-primary" NavigateUrl="~/Upload.aspx">Upload File</asp:HyperLink>
         </div>
-        <div class="h-100">
+        <div class="row">
             <asp:Calendar ID="Calendar1" runat="server" BackColor="White" BorderColor="Black" DayNameFormat="Shortest" Font-Names="Times New Roman" Font-Size="16pt" ForeColor="Black" Height="253px" NextPrevFormat="FullMonth" TitleFormat="Month" Width="400px" CssClass="w-100 h-100" OnDayRender="Calendar1_DayRender" OnSelectionChanged="Calendar1_SelectionChanged">
                 <DayHeaderStyle BackColor="#CCCCCC" Font-Bold="True" Font-Size="7pt" ForeColor="#333333" Height="10pt" />
                 <DayStyle Width="14%" />
